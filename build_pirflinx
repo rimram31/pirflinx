@@ -1,0 +1,2 @@
+#!/bin/sh
+g++ -w pirflinx.cpp pirfserver.cpp Logger.cpp rfHandlerV2.cpp coding/OokDecoder.cpp coding/AlectoDecoder.cpp  coding/KakuDecoder.cpp  coding/NewKakuDecoder.cpp  coding/OregonDecoder.cpp -o pirflinx -lpigpio -lpthread -lrt
