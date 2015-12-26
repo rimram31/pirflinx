@@ -13,7 +13,7 @@ cd pirflinx
 mkdir ~/pirflinx
 cp pirflinx ~/pirflinx
 cp pirfinx.sh ~/etc/init.d
-# Adapt as needed pirfinx.sh and add pirflinx as a service
+- Adapt as needed pirfinx.sh and add pirflinx as a service
 sudo /etc/init.d/pirflinx # By default listen to 9999 port
 
 You can now add a new hardware to domoticz work as a RFLink TCP hardware.
