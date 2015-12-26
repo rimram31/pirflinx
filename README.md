@@ -10,8 +10,6 @@ build_pirflinx is a simple command compiling and linking final executable (sorry
 Get the code: git clone https://github.com/rimram31/pirflinx.git pirflinx
 cd pirflinx
 ./build_pirflinx
-mkdir ~/pirflinx
-cp pirflinx ~/pirflinx
 cp pirfinx.sh ~/etc/init.d
 - Adapt as needed pirfinx.sh and add pirflinx as a service
 sudo /etc/init.d/pirflinx # By default listen to 9999 port
