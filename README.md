@@ -5,11 +5,11 @@ pirflink handle my linx pi card listening and sending RF commands (https://www.l
 
 It emulate a RFLink hardware (but only support a few protocols for the devices I have ...) using TCP.
 
-build_pirflinx is a simple command compiling and linking final executable (sorry no makefile yet ...) named pirflinx. pirflinx.sh a based script to be used as a daemon service script (/etc/init.d)
+makefile should work ... it build a final executable named pirflinx. pirflinx.sh a based script to be used as a daemon service script (/etc/init.d)
 
 Get the code: git clone https://github.com/rimram31/pirflinx.git pirflinx
 cd pirflinx
-./build_pirflinx
+make
 cp pirfinx.sh ~/etc/init.d
 - Adapt as needed pirfinx.sh and add pirflinx as a service
 sudo /etc/init.d/pirflinx # By default listen to 9999 port
