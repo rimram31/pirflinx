@@ -16,4 +16,4 @@ sudo /etc/init.d/pirflinx # By default listen to 9999 port
 
 You can now add a new hardware to domoticz work as a RFLink TCP hardware.
 
-Nota: This program require pigpio library (http://abyz.co.uk/rpi/pigpio/)
+Nota: This program require pigpio library (http://abyz.me.uk/rpi/pigpio/)
